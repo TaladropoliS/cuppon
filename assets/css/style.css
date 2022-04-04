@@ -1,33 +1,37 @@
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
-header > h1 {
-    color: #707070;
-}
-
-main > h2, h3, h4, h5, h6, p {
-    color: #373A3C;
+* {
+    font-family: 'Roboto', sans-serif;
 }
 
 #navbar {
-    background-color: #E83E8C;
+    background-color: #28A745;
 }
 
 #navbar img {
-    max-height: 53px;
-    max-width: 132px;
+    max-height: 25px;
+    max-width: 86px;
 }
 
-#tc {
-    background-color: #17A2B8;
+h4 > span {
+    color: #28A745;
 }
 
-#footer {
-    background-color: #E83E8C;
+h2 {
+    color: #212529;
 }
 
-#footer img {
-    max-height: 100px;
+h4, h6, p {
+    color: #707070;
 }
 
+.direccion {
+    font-size: small;
+    margin-top: -10px !important;
+}
+
+#form {
+    background-color: #28A745;
+}
+
+#img-footer {
+    max-width: 82px;
+}
